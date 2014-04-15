@@ -16,7 +16,9 @@
             android:id="@+id/planetImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:fitsSystemWindows="true"
+            android:scaleType="center" />
 
         <TextView
             android:id="@+id/planetName"
@@ -59,7 +61,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Orbital Cycle (days): " />
+                android:text="Orbital Cycle (earth days): " />
 
             <TextView
                 android:id="@+id/orbitalPeriod"
